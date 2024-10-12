@@ -2,7 +2,7 @@ title: IEEE Smart World Congress 2025
 email: rmorland@athabascau.ca
 description: >- # this means to ignore newlines until "baseurl:"
   Join us for the 2025 IEEE Smart World Congress in Calgary, Alberta, Canada July 2025
-baseurl: "/IEEE-SWC-2025"
+baseurl: "/"
 url: "https://raymorland.github.io"
 author:
   name: "IEEE SWC 2025 Organizing Committee"
