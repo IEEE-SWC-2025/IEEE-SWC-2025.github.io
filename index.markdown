@@ -10,7 +10,6 @@ title: Home
       <h1 class="display-4">IEEE Smart World Congress 2025</h1>
       <h3>Calgary, Alberta, Canada</h3>
       <h4>August 18-22, 2025</h4>
-      <h2>Registration Coming Soon</h2>
       <!-- <a href="#register" class="btn btn-primary btn-lg">Register Now</a> -->
     </div>
   </div>
