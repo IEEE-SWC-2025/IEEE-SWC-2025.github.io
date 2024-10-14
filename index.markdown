@@ -5,16 +5,16 @@ title: Home
 
 <!-- Hero Section -->
 <section class="jumbotron text-center" style="background-image: url('{{ "/assets/images/ahmed-zalabany-yTElJrzPHZo-unsplash.jpg" | relative_url }}'); background-size: cover; background-position: center; height: 90vh; position: relative; color: white;">
-  <div style="background-color: rgba(0, 0, 0, 0.5); height: 100%; display: flex; align-items: center; justify-content: center;">
-    <div class="page-section container px-5 pt-5 d-flex flex-column align-items-center gap-3">
-      <h1 class="display-3 fw-bolder mt-5">IEEE Smart World Congress 2025</h1>
-      <h2 class="w-75 display-6 text-center">Building on Cross-disciplinary Insights to Shape the Future of Human-AI Interaction</h2>
-      <div>
-        <h3>Calgary, Alberta, Canada</h3>
-        <h3 class="">August 18 - 22, 2025</h3>
-      </div>
+    <div style="background-color: rgba(0, 0, 0, 0.5); height: 100%; display: flex; align-items: center; justify-content: center;">
+        <div class="page-section container px-5 pt-5 d-flex flex-column align-items-center gap-3">
+            <h1 class="display-3 fw-bolder mt-5">IEEE Smart World Congress 2025</h1>
+            <h2 class="w-75 display-6 text-center">Building on Cross-disciplinary Insights to Shape the Future of Human-AI Interaction</h2>
+            <div>
+                <h3>Calgary, Alberta, Canada</h3>
+                <h3 class="">August 18 - 22, 2025</h3>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 
 <!-- Additional Content Sections -->
@@ -91,54 +91,51 @@ title: Home
 <!-- Additional Content Sections -->
 <section class="container-fluid d-flex flex-column gap-4 bg-light">
     <div class="page-section w-100  px-5 py-5 d-flex flex-column gap-4">
-      <h2 class="text-center">Previous Smart World Congress</h2>
-  <div class="row">
-    <div class="col-sm-4 mb-3 mb-sm-0">
-    <div class="card bg-light-subtle">
-      <div class="card-body">
-        <h5 class="fs-6 text-center">2022 IEEE SWC</h5>
-        <h3 class="text-center">Haikou</h3>
-        <p class="card-text text-center">December 15 - 18, 2022</p>
-        <a href="https://ieee-smart-world.org/2022/" class="btn btn-primary w-100">View</a>
-      </div>
+        <h2 class="text-center">Previous Smart World Congress</h2>
+        <div class="row pb-3">
+            <div class="col-sm-4 mb-3 mb-sm-0">
+                <div class="card bg-light-subtle">
+                    <div class="card-body">
+                        <h5 class="fs-6 text-center">2022 IEEE SWC</h5>
+                        <h3 class="text-center">Haikou</h3>
+                        <p class="card-text text-center">December 15 - 18, 2022</p>
+                        <a href="https://ieee-smart-world.org/2022/" class="btn btn-primary w-100">View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-3 mb-sm-0">
+                <div class="card bg-light-subtle">
+                    <div class="card-body">
+                        <h5 class="fs-6 text-center">2023 IEEE SWC</h5>
+                        <h3 class="text-center">Portsmouth</h3>
+                        <p class="card-text text-center">August 28 - 31, 2023</p>
+                        <a href="https://ieee-smart-world-congress.org/" class="btn btn-primary w-100">View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card bg-light-subtle">
+                    <div class="card-body d-flex flex-column justify-content-between align-content-center">
+                        <h5 class="fs-6 text-center">2024 IEEE SWC</h5>
+                        <h3 class="text-center">Fiji</h3>
+                        <p class="card-text text-center">December 2 - 7, 2024</p>
+                        <a href="https://www.ieee-smart-world.org/2024/" class="btn btn-primary w-100">View</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="col-sm-4 mb-3 mb-sm-0">
-    <div class="card bg-light-subtle">
-      <div class="card-body">
-        <h5 class="fs-6 text-center">2023 IEEE SWC</h5>
-        <h3 class="text-center">Portsmouth</h3>
-        <p class="card-text text-center">August 28 - 31, 2023</p>
-        <a href="https://ieee-smart-world-congress.org/" class="btn btn-primary w-100">View</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-4">
-    <div class="card bg-light-subtle">
-      <div class="card-body d-flex flex-column justify-content-between align-content-center">
-        <h5 class="fs-6 text-center">2024 IEEE SWC</h5>
-        <h3 class="text-center">Fiji</h3>
-        <p class="card-text text-center">December 2 - 7, 2024</p>
-        <a href="https://www.ieee-smart-world.org/2024/" class="btn btn-primary w-100">View</a>
-      </div>
-    </div>
-  </div>
-</div>
-    </div>
-
 </section>
 
 <!-- Additional Content Sections -->
 <section class="page-section container-fluid px-5 py-5 d-flex flex-column gap-4">
-        <div class="row g-2">
-            <div class="col-sm-12 d-flex flex-column gap-3 justify-content-around pt-2 pb-2">
-                <h2 class="text-center">Co-Located Conferences</h2>
-                <h3 class="text-center">Coming soon</h3>
-            </div>
-            <div class="col-sm-12">
-
-            </div>
+    <div class="row g-2">
+        <div class="col-sm-12 d-flex flex-column gap-3 justify-content-around pt-2 pb-2">
+            <h2 class="text-center">Co-Located Conferences</h2>
+            <h3 class="text-center">Coming soon</h3>
         </div>
+        <div class="col-sm-12"></div>
+    </div>
 </section>
 
 <!-- Additional Content Sections -->
@@ -158,18 +155,18 @@ title: Home
 </section>
 
 <section class="page-section container-fluid px-5 py-5 d-flex flex-column gap-4">
-<h2 class="text-center">Sponsors</h2>
-  <div class="row justify-content-around gap-3 pb-5">
-    <!-- First Image -->
-    <div class="col-12 col-md-auto d-flex justify-content-center" style="height: 50px;">
-      <img src="/assets/images/ieee mb black png.png" class="mh-100"/>
-    </div>
-    <!-- Second Image -->
-    <div class="col-12 col-md-auto d-flex justify-content-center" style="height: 50px;">
-      <img src="/assets/images/cis-logo.png" class="mh-100"/>
-    </div>
+    <h2 class="text-center">Sponsors</h2>
+    <div class="row justify-content-around gap-3 pb-5">
+        <!-- First Image -->
         <div class="col-12 col-md-auto d-flex justify-content-center" style="height: 50px;">
-      <img src="/assets/images/IEEE-CS_LogoTM-orange.png" class="mh-100"/>
+            <img src="/assets/images/ieee mb black png.png" class="mh-100"/>
+        </div>
+        <!-- Second Image -->
+        <div class="col-12 col-md-auto d-flex justify-content-center" style="height: 50px;">
+            <img src="/assets/images/cis-logo.png" class="mh-100"/>
+        </div>
+        <div class="col-12 col-md-auto d-flex justify-content-center" style="height: 50px;">
+            <img src="/assets/images/IEEE-CS_LogoTM-orange.png" class="mh-100"/>
+        </div>
     </div>
-  </div>
 </section>
