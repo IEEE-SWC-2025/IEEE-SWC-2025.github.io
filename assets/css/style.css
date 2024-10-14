@@ -57,3 +57,15 @@ footer a:hover {
   max-width: 1200px;
   margin: auto;
 }
+
+.dropdown-menu-black {
+    background-color: #141414;
+}
+
+.dropdown-menu-black .dropdown-item {
+    color: #ffffff;
+}
+
+.dropdown-menu-black .dropdown-item:hover {
+    background-color: #333333;
+}
