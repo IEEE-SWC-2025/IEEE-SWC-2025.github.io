@@ -8,7 +8,7 @@ title: Home
     <div style="background-color: rgba(0, 0, 0, 0.5); height: 100%; display: flex; align-items: center; justify-content: center;">
         <div class="page-section container px-5 pt-5 d-flex flex-column align-items-center gap-3">
             <h1 class="display-3 fw-bolder mt-5">IEEE Smart World Congress 2025</h1>
-            <h2 class="w-75 display-6 text-center">Building on Cross-disciplinary Insights to Shape the Future of Human-AI Interaction</h2>
+            <h3 class="w-75 responsive-width fw-medium text-center">Building on Cross-disciplinary Insights to Shape the Future of Human-AI Interaction</h3>
             <div>
                 <h3>Calgary, Alberta, Canada</h3>
                 <h3 class="">August 18 - 22, 2025</h3>
