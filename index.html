@@ -19,13 +19,15 @@ title: Home
     <div
       class="page-section container px-5 pt-5 d-flex flex-column align-items-center gap-3"
     >
-      <h1 class="display-3 fw-bolder mt-5">IEEE Smart World Congress 2025 (Hybrid)</h1>
+      <h1 class="display-3 fw-bolder mt-5">
+        IEEE Smart World Congress 2025 (Hybrid)
+      </h1>
       <h3 class="w-75 responsive-width fw-medium text-center">
         Convergence of Minds: Forging Human-AI Partnerships Across Disciplines
       </h3>
       <div>
         <h3>Calgary, Alberta, Canada</h3>
-        <h3 class="">August 18 - 22, 2025</h3>
+        <h3 class="">{{site.data.swc_data.dates.conferenceDates}}</h3>
       </div>
       <div>
         <a href="/cfp" class="btn btn-primary w-100"
@@ -40,6 +42,9 @@ title: Home
   class="page-section container-fluid px-5 pt-5 pb-5 mt-2 d-flex flex-column gap-4"
 >
   <div class="row">
+    <div class="alert alert-primary" role="alert">
+      Paper submission deadline has been extended to <b>May 1</b>
+    </div>
     <div class="col-sm-8 mb-3 mb-sm-0 d-flex flex-column gap-4">
       <h2 class="fs-2 mb-2">Join us at IEEE Smart World Congress 2025</h2>
       <p class="fs-5">
@@ -73,29 +78,34 @@ title: Home
           <h4 class="fw-bold">Key Dates and Deadlines</h4>
           <hr class="w-100" />
           <h5 class="fs-6 fw-bold text-center">Full Paper Submission</h5>
-          <h6 class=""> April 14, 2025 (extended) </h6>
+          <h6 class="text-decoration-line-through">April 14, 2025</h6>
+          <h6 class="">{{site.data.swc_data.dates.paperSubmission}}</h6>
           <hr class="w-100" />
           <h5 class="fs-6 fw-bold text-center">Authors Notification</h5>
-          <h6 class="">May 31, 2025</h6>
+          <h6 class="">{{site.data.swc_data.dates.authorsNotification}}</h6>
           <hr class="w-100" />
           <h5 class="fs-6 fw-bold text-center">Demo/Poster/WiP Paper Due</h5>
-          <h6 class="">June 15, 2025</h6>
+          <h6 class="">{{site.data.swc_data.dates.demoPosterWIPPaperDue}}</h6>
           <hr class="w-100" />
           <h5 class="fs-6 fw-bold text-center">Camera Ready Copy Due</h5>
-          <h6 class="">June 30, 2025</h6>
+          <h6 class="">{{site.data.swc_data.dates.cameraReadyDue}}</h6>
           <hr class="w-100" />
           <h5 class="fs-6 fw-bold text-center">
             Tutorial / Workshop / Special Session Proposal
           </h5>
-          <h6 class=""> April 14, 2025 (extended)</h6>
+          <h6 class="">
+            {{site.data.swc_data.dates.tutorialWorkshopSpecialSessionDue}}
+          </h6>
           <hr class="w-100" />
           <h5 class="fs-6 fw-bold text-center">
             Tutorial / Workshop / Special Session Acceptance
           </h5>
-          <h6 class="">April 15, 2025</h6>
+          <h6 class="">
+            {{site.data.swc_data.dates.tutorialWorkshopSpecialSessionAcceptance}}
+          </h6>
           <hr class="w-100" />
           <h5 class="fs-6 fw-bold text-center">Conference Dates</h5>
-          <h6 class="">August 18 - 22, 2025</h6>
+          <h6 class="">{{site.data.swc_data.dates.conferenceDates}}</h6>
         </div>
       </div>
     </div>
@@ -485,70 +495,7 @@ title: Home
   </div>
 </section>
 
-<section class="container-fluid d-flex flex-column gap-4">
-  <div class="page-section w-100 px-5 py-5 d-flex flex-column gap-4">
-    <h2 class="fs-2 text-center">IEEE SWC 2025 Colocated Conferences</h2>
-    <div class="row pb-3 g-4 justify-content-center">
-      <div class="col-sm-4">
-        <div class="card bg-light-subtle">
-          <div class="card-body d-flex flex-column gap-4">
-            <h3 class="text-center">IEEE Digital Twin 2025</h3>
-            <h5 class="fs-6 text-center">
-              The 2025 IEEE Digital Twin Conference
-            </h5>
-            <a href="/digitaltwin" class="btn btn-primary w-100">View</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card bg-light-subtle">
-          <div class="card-body d-flex flex-column gap-4">
-            <h3 class="text-center">IEEE MVS 2025</h3>
-            <h5 class="fs-6 text-center">
-              The IEEE International Conference on Metaverse 2025
-            </h5>
-            <a href="/metaverse" class="btn btn-primary w-100">View</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card bg-light-subtle">
-          <div class="card-body d-flex flex-column gap-4">
-            <h3 class="text-center">IEEE ScalCom 2025</h3>
-            <h5 class="fs-6 text-center">
-              The 25th IEEE International Conference on Scalable Computing and
-              Communications
-            </h5>
-            <a href="/scalcom" class="btn btn-primary w-100">View</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card bg-light-subtle">
-          <div class="card-body d-flex flex-column gap-4">
-            <h3 class="text-center">IEEE UIC 2025</h3>
-            <h5 class="fs-6 text-center">
-              The 22nd IEEE International Conference on Ubiquitous Intelligence
-              and Computing
-            </h5>
-            <a href="/uic" class="btn btn-primary w-100">View</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card bg-light-subtle">
-          <div class="card-body d-flex flex-column gap-4">
-            <h3 class="text-center">IEEE ATC 2025</h3>
-            <h5 class="fs-6 text-center">
-              The 22nd IEEE Autonomous and Trusted Vehicle Conference
-            </h5>
-            <a href="/atc" class="btn btn-primary w-100">View</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{% include colocated-conferences.html %}
 
 <section
   class="page-section container-fluid px-5 py-5 d-flex flex-column gap-4"

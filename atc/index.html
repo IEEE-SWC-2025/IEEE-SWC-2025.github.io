@@ -50,7 +50,8 @@ title: IEEE UIC 2025
           <h4 class="fs-5 fw-bold">Important Dates</h4>
           <hr class="w-100" />
           <h5 class="fs-6 fw-bold text-center">Paper Submission Deadline</h5>
-          <h6 class=""> April 14, 2025 (extended)</h6>
+          <h6 class="text-decoration-line-through">April 14, 2025</h6>
+          <h6>{{site.data.swc_data.dates.paperSubmission}}</h6>
           <hr class="w-100" />
           <h5 class="fs-6 fw-bold text-center">Authors Notification</h5>
           <h6 class="">May 31, 2025</h6>
@@ -292,12 +293,11 @@ title: IEEE UIC 2025
           <h3 class="">Paper Submission</h3>
           <p class="fs-5">
             All papers need to be submitted electronically through the
-            conterence submission website (EDAS) in PDF format at the link
-            below. Each paper is limited to 8 pages (or 10 pages with
-            over-length charge) for a regular full paper, 6 pages (or 8 pages
-            with over-length charge) for a full paper including figures and
-            references using the IEEE Computer Society Proceedings manuscripts
-            style.
+            conference submission website (EDAS) in PDF format at EDAS. Each
+            paper is limited to 8 pages (or 10 pages with over-length charge)
+            for a regular full paper, 6 pages (or 8 pages with over-length
+            charge) for a full paper including figures and references using the
+            IEEE Computer Society Proceedings manuscripts style.
           </p>
           <h3 class="">Paper Publication</h3>
           <p class="fs-5">
@@ -323,59 +323,7 @@ title: IEEE UIC 2025
 </section>
 
 <section class="container-fluid d-flex flex-column gap-4 bg-light">
-  <div class="page-section w-100 px-5 py-5 d-flex flex-column gap-4">
-    <h2 class="fs-2 text-center">IEEE SWC 2025 Colocated Conferences</h2>
-    <div class="row pb-3 g-4 justify-content-center">
-      <div class="col-sm-4">
-        <div class="card bg-light-subtle h-100">
-          <div
-            class="card-body d-flex flex-column justify-content-between gap-4 h-100"
-          >
-            <h3 class="text-center">IEEE Digital Twin 2025</h3>
-            <h5 class="fs-6 text-center">
-              The 2025 IEEE Digital Twin Conference
-            </h5>
-            <a href="/digitaltwin" class="btn btn-primary w-100">View</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card bg-light-subtle">
-          <div class="card-body d-flex flex-column gap-4">
-            <h3 class="text-center">IEEE MVS 2025</h3>
-            <h5 class="fs-6 text-center">
-              The IEEE International Conference on Metaverse 2025
-            </h5>
-            <a href="/metaverse" class="btn btn-primary w-100">View</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card bg-light-subtle">
-          <div class="card-body d-flex flex-column gap-4">
-            <h3 class="text-center">IEEE ScalCom 2025</h3>
-            <h5 class="fs-6 text-center">
-              The 25th IEEE International Conference on Scalable Computing and
-              Communications
-            </h5>
-            <a href="/scalcom" class="btn btn-primary w-100">View</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card bg-light-subtle">
-          <div class="card-body d-flex flex-column gap-4">
-            <h3 class="text-center">IEEE UIC 2025</h3>
-            <h5 class="fs-6 text-center">
-              The 22nd IEEE International Conference on Ubiquitous Intelligence
-              and Computing
-            </h5>
-            <a href="/uic" class="btn btn-primary w-100">View</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  {% include colocated-conferences.html %}
 </section>
 
 <section

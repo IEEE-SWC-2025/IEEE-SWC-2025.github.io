@@ -1,0 +1,27 @@
+[
+  {
+    "shortTitle": "IEEE Digital Twin 2025",
+    "shortDescription": "The 2025 IEEE Digital Twin Conference",
+    "url": "/digitaltwin"
+  },
+  {
+    "shortTitle": "IEEE MVS 2025",
+    "shortDescription": "The IEEE International Conference on Metaverse 2025",
+    "url": "/metaverse"
+  },
+  {
+    "shortTitle": "IEEE ScalCom 2025",
+    "shortDescription": "The 25th IEEE International Conference on Scalable Computing and Communications",
+    "url": "/scalcom"
+  },
+  {
+    "shortTitle": "IEEE UIC 2025",
+    "shortDescription": "The 22nd IEEE International Conference on Ubiquitous Intelligence and Computing",
+    "url": "/uic"
+  },
+  {
+    "shortTitle": "IEEE ATC 2025",
+    "shortDescription": "The 22nd IEEE Autonomous and Trusted Vehicle Conference",
+    "url": "/atc"
+  }
+]
