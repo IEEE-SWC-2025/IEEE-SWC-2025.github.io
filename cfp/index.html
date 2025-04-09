@@ -177,68 +177,7 @@ title: IEEE SWC 2025 CFP
 </section>
 
 <section class="container-fluid d-flex flex-column gap-4 bg-light">
-  <div class="page-section w-100 px-5 py-5 d-flex flex-column gap-4">
-    <h2 class="fs-2 text-center">IEEE SWC 2025 Colocated Conferences</h2>
-    <div class="row pb-3 g-4 justify-content-center">
-      <div class="col-sm-4">
-        <div class="card bg-light-subtle">
-          <div class="card-body d-flex flex-column gap-4">
-            <h3 class="text-center">IEEE Digital Twin 2025</h3>
-            <h5 class="fs-6 text-center">
-              The 2025 IEEE Digital Twin Conference
-            </h5>
-            <a href="/digitaltwin" class="btn btn-primary w-100">View</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card bg-light-subtle">
-          <div class="card-body d-flex flex-column gap-4">
-            <h3 class="text-center">IEEE MVS 2025</h3>
-            <h5 class="fs-6 text-center">
-              The IEEE International Conference on Metaverse 2025
-            </h5>
-            <a href="/metaverse" class="btn btn-primary w-100">View</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card bg-light-subtle">
-          <div class="card-body d-flex flex-column gap-4">
-            <h3 class="text-center">IEEE ScalCom 2025</h3>
-            <h5 class="fs-6 text-center">
-              The 25th IEEE International Conference on Scalable Computing and
-              Communications
-            </h5>
-            <a href="/scalcom" class="btn btn-primary w-100">View</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card bg-light-subtle">
-          <div class="card-body d-flex flex-column gap-4">
-            <h3 class="text-center">IEEE UIC 2025</h3>
-            <h5 class="fs-6 text-center">
-              The 22nd IEEE International Conference on Ubiquitous Intelligence
-              and Computing
-            </h5>
-            <a href="/uic" class="btn btn-primary w-100">View</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card bg-light-subtle">
-          <div class="card-body d-flex flex-column gap-4">
-            <h3 class="text-center">IEEE ATC 2025</h3>
-            <h5 class="fs-6 text-center">
-              The 22nd IEEE Autonomous and Trusted Vehicle Conference
-            </h5>
-            <a href="/atc" class="btn btn-primary w-100">View</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  {% include colocated-conferences.html %}
 </section>
 
 <section class="container-fluid d-flex flex-column gap-4">
@@ -253,23 +192,19 @@ title: IEEE SWC 2025 CFP
     </p>
     <h3>Paper Submission Guidelines</h3>
     <p class="fs-5">
-      Papers should be submitted via
-      <a href="https://edas.info/newPaper.php?c=33582">EDAS</a>. All papers must
-      be submitted electronically and in PDF format. The material presented
-      should be original and not published or under submission elsewhere.
-    </p>
-    <h3 class="">Full papers or short papers</h3>
-    <p class="fs-5">
-      Full papers of up to 6 pages or short papers up to 4 pages, following
-      strictly the IEEE Computer Society Proceedings Manuscript style, using
-      two-column, single-space format, with 10-point font size. Figures and
-      references must be included in the page limit. Authors are allowed to pay
-      for up to TWO (2) additional pages with over length charge. All accepted
-      papers of IEEE SWC, after being presented onsite at the conference, will
-      be included in the conference proceedings and submitted for inclusion in
-      the IEEE Xplore Digital Library. At least one of the authors of each
-      accepted paper must register early to attend the conference, in order for
-      the paper to appear in the conference proceedings.
+      All papers need to be submitted electronically through the conference
+      submission website (EDAS) in PDF format at EDAS. Each paper is limited to
+      8 pages (or 10 pages with over-length charge) for a regular full paper, 6
+      pages (or 8 pages with over-length charge) for a full paper including
+      figures and references using the IEEE Computer Society Proceedings
+      manuscripts style.
+      <br /><br />
+      All accepted papers of IEEE SWC, after being presented onsite at the
+      conference, will be included in the conference proceedings and submitted
+      for inclusion in the IEEE Xplore Digital Library. At least one of the
+      authors of each accepted paper must register early to attend the
+      conference, in order for the paper to appear in the conference
+      proceedings.
     </p>
     <div>
       <a
