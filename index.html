@@ -289,8 +289,6 @@ title: Home
       <p>Industry Liaison Chair</p>
     </div>
 
-   
-
     <div class="col-md-4">
       <img
         src="/assets/images/hong.jpg"
@@ -461,7 +459,9 @@ title: Home
 
 <section class="container-fluid d-flex flex-column gap-4 bg-light">
   <div class="page-section w-100 px-5 py-5">
-    <h2 class="fs-2 text-center mb-5">Venue</h2>
+    <h2 class="fs-2 text-center mb-5">
+      Join us and Connect at a World Class Venue
+    </h2>
     <div class="row mb-5">
       <div
         class="col-sm-6 d-flex flex-column gap-3 justify-content-around py-2"
@@ -473,9 +473,11 @@ title: Home
           budget options. This proximity ensures that conference attendees have
           a range of accommodation choices within walking distance.
         </p>
-        <a href="/venue/telus-convention-center" class="btn btn-primary w-100"
-          >Learn More</a
-        >
+        <div class="d-flex flex-row">
+          <a href="/venue/telus-convention-center" class="btn btn-primary"
+            >Learn More</a
+          >
+        </div>
       </div>
       <div
         class="col-sm-6 py-2 d-flex justify-content-center align-items-end"
@@ -487,11 +489,27 @@ title: Home
         />
       </div>
     </div>
+  </div>
+</section>
+
+<section class="container-fluid d-flex flex-column gap-4">
+  <div class="page-section w-100 px-5 py-5">
+    <h2 class="fs-2 text-center mb-5">
+      Explore Stunning Calgary and Its Scenic Surroundings
+    </h2>
     <div class="row">
       <div
-        class="col-sm-6 d-flex flex-column gap-3 justify-content-around py-2"
+        class="col-sm-6 py-2 d-flex justify-content-center align-items-end"
+        style="max-height: 500px; overflow: hidden"
       >
-        <h3 class="">Calgary, Canada</h3>
+        <img
+          src="/assets/images/sri-gowda-pdIe9hAcaP4-unsplash.jpg"
+          class="w-100 img-fluid"
+        />
+      </div>
+      <div
+        class="col-sm-6 d-flex flex-column gap-2 flex-sm-column justify-content-around"
+      >
         <p class="fs-5">
           Calgary, Alberta, Canada, is a vibrant city nestled in the foothills
           of the Canadian Rockies, known for its dynamic mix of urban
@@ -502,22 +520,22 @@ title: Home
           heritage, and offers stunning natural beauty, with easy access to the
           nearby Banff and Jasper national parks.
         </p>
-        <a href="/venue" class="btn btn-primary w-100">Learn More</a>
-      </div>
-      <div
-        class="col-sm-6 py-2 d-flex justify-content-center align-items-end"
-        style="max-height: 500px; overflow: hidden"
-      >
-        <img
-          src="/assets/images/sri-gowda-pdIe9hAcaP4-unsplash.jpg"
-          class="w-100 img-fluid"
-        />
+        <div class="d-flex flex-sm-row gap-2 flex-column">
+          <a href="/venue/telus-convention-center" class="btn btn-primary"
+            >Learn More</a
+          >
+          <a href="/travel/banff-group-trip/" class="btn btn-primary"
+            >Join the Group Trip to Banff</a
+          >
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-{% include colocated-conferences.html %}
+<section class="container-fluid d-flex flex-column gap-4 bg-light">
+  {% include colocated-conferences.html %}
+</section>
 
 <section
   class="page-section container-fluid px-5 py-5 d-flex flex-column gap-4"
