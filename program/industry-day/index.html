@@ -1,6 +1,13 @@
 ---
 layout: default
 title: Industry Day
+sponsors:
+  - image: /assets/images/ieee mb black png.png
+  - image: /assets/images/cis-logo.png
+  - image: /assets/images/IEEE-CS_LogoTM-orange.png
+  - image: /assets/images/tcsc_ieee.png
+  - image: /assets/images/IEEE_HI_TC.jpg
+  - image: /assets/images/ieee_cpss.png
 ---
 
 <!-- Hero Section -->
@@ -17,7 +24,7 @@ title: Industry Day
 >
   <div class="hero-section">
     <div
-      class="page-section container px-5 pt-5 d-flex flex-column align-items-center gap-3"
+      class="page-section container px-3 pt-5 d-flex flex-column align-items-center gap-3"
     >
       <h1 class="display-5 fw-bolder mt-5">IEEE Smart World Congress 2025</h1>
       <h2>Industry Day</h2>
@@ -27,7 +34,7 @@ title: Industry Day
 </section>
 
 <section
-  class="page-section container-fluid px-5 pb-5 d-flex flex-column gap-2"
+  class="page-section container-fluid px-3 pb-5 d-flex flex-column gap-2"
 >
   <div class="row g-4">
     <div
@@ -74,7 +81,7 @@ title: Industry Day
 </section>
 
 <section class="container-fluid d-flex flex-column gap-4 bg-light p-0">
-  <div class="page-section w-100 px-5 py-5 d-flex flex-column gap-4">
+  <div class="page-section w-100 px-3 py-5 d-flex flex-column gap-4">
     <h2 class="text-center">Industry Day Schedule</h2>
 
     <!-- Morning session -->
@@ -442,7 +449,8 @@ title: Industry Day
               cases.
             </p>
             <p class="fs-6 fw-normal">
-              Tom Danshin, CTO of Kornak Technologies <br />
+              <a href="#tom-danshin">Tom Danshin</a>, CTO of Kornak Technologies
+              <br />
               <a href="#andrea-urbina">Andrea Urbina</a>, CEO of ELIXR
               Simulations <br />
               <a href="#colin-adderley">Colin Adderley</a>, IT Engineer 3, The
@@ -560,7 +568,7 @@ title: Industry Day
 
 <!-- Speakers -->
 <section
-  class="page-section container-fluid px-5 py-5 d-flex flex-column gap-4"
+  class="page-section container-fluid px-3 py-5 d-flex flex-column gap-4"
 >
   <div>
     <h2 class="fs-2">Keynote Speakers</h2>
@@ -1779,6 +1787,46 @@ title: Industry Day
       ></a>
     </div>
   </div>
+  <!-- Tom Danshin -->
+  <div class="row" id="tom-danshin">
+    <div
+      class="col-md-3 col-sm-4 mb-3 mb-sm-0 d-flex flex-row gap-4 justify-content-center"
+    >
+      <div class="text-center">
+        <img
+          src="/assets/images/Tom_Danshin.JPEG"
+          alt="Tom Danshin"
+          class="circle-img mb-3"
+        />
+        <h4>Tom Danshin</h4>
+        <h6>
+          <i> Vice President of Engineering</i>
+        </h6>
+        <h6>
+          <i
+            ><a target="_blank" href="https://www.kornak.ca/"
+              >Kornak Technologies Inc.</a
+            ></i
+          >
+        </h6>
+      </div>
+    </div>
+    <div class="col-md-9 col-sm-8">
+      <h4>Biography</h4>
+      <p>
+        Tom Danshin is a technology executive and systems engineer with 30 years
+        of experience driving product innovation in wireless communications,
+        industrial monitoring, and IoT. He has led global teams in the
+        end-to-end design, development, and deployment of high volume products,
+        and has played a key role in bringing certified solutions to
+        international markets. Tom's career includes leadership roles at Nortel
+        Networks, Tektelic Communications, and currently Kornak Technologies. He
+        is known for his contributions to advancing wireless technology
+        standards and best practices. Tom holds both a B.Sc. and M.Sc. in
+        Electrical Engineering from the University of Saskatchewan.
+      </p>
+    </div>
+  </div>
   <!-- Tracey Nyholt -->
   <div class="row" id="tracey-nyholt">
     <div
@@ -1860,46 +1908,4 @@ title: Industry Day
   {% include colocated-conferences.html %}
 </section>
 
-<section
-  class="page-section container-fluid px-5 py-5 d-flex flex-column gap-4"
->
-  <h2 class="fs-2 text-center">Sponsors</h2>
-  <div class="row justify-content-around gap-3 pb-5">
-    <div
-      class="col-12 col-md-3 d-flex justify-content-center"
-      style="height: 50px"
-    >
-      <img src="/assets/images/ieee mb black png.png" class="mh-100" />
-    </div>
-    <div
-      class="col-12 col-md-3 d-flex justify-content-center"
-      style="height: 50px"
-    >
-      <img src="/assets/images/cis-logo.png" class="mh-100" />
-    </div>
-    <div
-      class="col-12 col-md-3 d-flex justify-content-center"
-      style="height: 50px"
-    >
-      <img src="/assets/images/IEEE-CS_LogoTM-orange.png" class="mh-100" />
-    </div>
-    <div
-      class="col-12 col-md-3 d-flex justify-content-center"
-      style="height: 50px"
-    >
-      <img src="/assets/images/tcsc_ieee.png" class="mh-100" />
-    </div>
-    <div
-      class="col-12 col-md-3 d-flex justify-content-center"
-      style="height: 50px"
-    >
-      <img src="/assets/images/IEEE_HI_TC.jpg" class="mh-100" />
-    </div>
-    <div
-      class="col-12 col-md-3 d-flex justify-content-center"
-      style="height: 50px"
-    >
-      <img src="/assets/images/ieee_cpss.png" class="mh-100" />
-    </div>
-  </div>
-</section>
+{% include sponsors.html sponsors=page.sponsors %}

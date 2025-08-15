@@ -1,6 +1,10 @@
 ---
 layout: default
 title: IEEE SWC 2025 Call for Papers
+sponsors:
+  - image: /assets/images/ieee mb black png.png
+  - image: /assets/images/cis-logo.png
+  - image: /assets/images/IEEE-CS_LogoTM-orange.png
 ---
 
 <!-- Hero Section -->
@@ -17,7 +21,7 @@ title: IEEE SWC 2025 Call for Papers
 >
   <div class="hero-section" style="min-height: 70vh">
     <div
-      class="page-section container px-5 pt-5 d-flex flex-column align-items-center gap-3"
+      class="page-section container px-3 pt-5 d-flex flex-column align-items-center gap-3"
     >
       <h1 class="display-5 fw-bolder mt-5">
         Call for Papers and Special Session/Workshop Proposals
@@ -40,7 +44,7 @@ title: IEEE SWC 2025 Call for Papers
 </section>
 
 <section
-  class="page-section container-fluid px-5 pt-3 pb-5 mt-2 d-flex flex-column gap-2"
+  class="page-section container-fluid px-3 pt-3 pb-5 mt-2 d-flex flex-column gap-2"
 >
   <div>
     <div class="alert alert-success" role="alert">
@@ -75,13 +79,19 @@ title: IEEE SWC 2025 Call for Papers
             Authors Notification (A delay of approximately one week caused by
             the high volume of paper submissions.)
           </h5>
-          <h6 class="text-decoration-line-through">{{site.data.swc_data.dates.authorsNotification}}</h6>
+          <h6 class="text-decoration-line-through">
+            {{site.data.swc_data.dates.authorsNotification}}
+          </h6>
           <hr class="w-100" />
           <h5 class="fs-6 fw-bold text-center">Demo/Poster/WiP Paper Due</h5>
-          <h6 class="text-decoration-line-through">{{site.data.swc_data.dates.demoPosterWIPPaperDue}}</h6>
+          <h6 class="text-decoration-line-through">
+            {{site.data.swc_data.dates.demoPosterWIPPaperDue}}
+          </h6>
           <hr class="w-100" />
           <h5 class="fs-6 fw-bold text-center">Camera-ready Submission</h5>
-          <h6 class="text-decoration-line-through">{{site.data.swc_data.dates.cameraReadyDue}}</h6>
+          <h6 class="text-decoration-line-through">
+            {{site.data.swc_data.dates.cameraReadyDue}}
+          </h6>
           <hr class="w-100" />
           <h5 class="fs-6 fw-bold text-center">Tutorial/WS/SS Proposal Due</h5>
           <h6 class="text-decoration-line-through">
@@ -203,7 +213,7 @@ title: IEEE SWC 2025 Call for Papers
 </section>
 
 <section class="container-fluid d-flex flex-column gap-4" id="submission">
-  <div class="page-section w-100 px-5 py-5 d-flex flex-column gap-4">
+  <div class="page-section w-100 px-3 py-5 d-flex flex-column gap-4">
     <h3>Conference Proceedings</h3>
     <p class="fs-5">
       The conference proceedings will be published by the IEEE Computer
@@ -274,7 +284,7 @@ title: IEEE SWC 2025 Call for Papers
 </section>
 
 <section class="container-fluid d-flex flex-column gap-4 bg-light">
-  <div class="page-section w-100 px-5 py-5 d-flex flex-column gap-4">
+  <div class="page-section w-100 px-3 py-5 d-flex flex-column gap-4">
     <h2 class="fs-2 text-center">
       Call for Proposals of Special Sessions or Workshops
     </h2>
@@ -345,28 +355,4 @@ title: IEEE SWC 2025 Call for Papers
   </div>
 </section>
 
-<section
-  class="page-section container-fluid px-5 py-5 d-flex flex-column gap-4"
->
-  <h2 class="fs-2 text-center">Sponsors</h2>
-  <div class="row justify-content-around gap-3 pb-5">
-    <div
-      class="col-12 col-md-3 d-flex justify-content-center"
-      style="height: 50px"
-    >
-      <img src="/assets/images/ieee mb black png.png" class="mh-100" />
-    </div>
-    <div
-      class="col-12 col-md-3 d-flex justify-content-center"
-      style="height: 50px"
-    >
-      <img src="/assets/images/cis-logo.png" class="mh-100" />
-    </div>
-    <div
-      class="col-12 col-md-3 d-flex justify-content-center"
-      style="height: 50px"
-    >
-      <img src="/assets/images/IEEE-CS_LogoTM-orange.png" class="mh-100" />
-    </div>
-  </div>
-</section>
+{% include sponsors.html sponsors=page.sponsors %}

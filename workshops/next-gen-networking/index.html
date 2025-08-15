@@ -1,6 +1,13 @@
 ---
 layout: default
 title: Next Generation Networking Workshop 2025
+sponsors:
+  - image: /assets/images/ieee mb black png.png
+  - image: /assets/images/cis-logo.png
+  - image: /assets/images/IEEE-CS_LogoTM-orange.png
+  - image: /assets/images/tcsc_ieee.png
+  - image: /assets/images/IEEE_HI_TC.jpg
+  - image: /assets/images/ieee_cpss.png
 ---
 
 <!-- Hero Section -->
@@ -17,7 +24,7 @@ title: Next Generation Networking Workshop 2025
 >
   <div class="hero-section">
     <div
-      class="page-section container px-5 pt-5 d-flex flex-column align-items-center gap-3"
+      class="page-section container px-3 pt-5 d-flex flex-column align-items-center gap-3"
     >
       <h1 class="display-5 fw-bolder mt-5">
         Intelligent and Secure Next-Generation Networking: Architectures,
@@ -33,7 +40,7 @@ title: Next Generation Networking Workshop 2025
 </section>
 
 <section
-  class="page-section container-fluid px-5 py-5 mt-2 d-flex flex-column gap-4"
+  class="page-section container-fluid px-3 py-5 mt-2 d-flex flex-column gap-4"
 >
   <div class="row g-5">
     <div class="col-sm-4 d-flex flex-column gap-4">
@@ -197,46 +204,4 @@ title: Next Generation Networking Workshop 2025
   {% include colocated-conferences.html %}
 </section>
 
-<section
-  class="page-section container-fluid px-5 py-5 d-flex flex-column gap-4"
->
-  <h2 class="fs-2 text-center">Sponsors</h2>
-  <div class="row justify-content-around gap-3 pb-5">
-    <div
-      class="col-12 col-md-3 d-flex justify-content-center"
-      style="height: 50px"
-    >
-      <img src="/assets/images/ieee mb black png.png" class="mh-100" />
-    </div>
-    <div
-      class="col-12 col-md-3 d-flex justify-content-center"
-      style="height: 50px"
-    >
-      <img src="/assets/images/cis-logo.png" class="mh-100" />
-    </div>
-    <div
-      class="col-12 col-md-3 d-flex justify-content-center"
-      style="height: 50px"
-    >
-      <img src="/assets/images/IEEE-CS_LogoTM-orange.png" class="mh-100" />
-    </div>
-    <div
-      class="col-12 col-md-3 d-flex justify-content-center"
-      style="height: 50px"
-    >
-      <img src="/assets/images/tcsc_ieee.png" class="mh-100" />
-    </div>
-    <div
-      class="col-12 col-md-3 d-flex justify-content-center"
-      style="height: 50px"
-    >
-      <img src="/assets/images/IEEE_HI_TC.jpg" class="mh-100" />
-    </div>
-    <div
-      class="col-12 col-md-3 d-flex justify-content-center"
-      style="height: 50px"
-    >
-      <img src="/assets/images/ieee_cpss.png" class="mh-100" />
-    </div>
-  </div>
-</section>
+{% include sponsors.html sponsors=page.sponsors %}

@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Keynotes - Dr. Chunsheng Yang
+sponsors:
+  - image: /assets/images/ieee mb black png.png
+  - image: /assets/images/cis-logo.png
+  - image: /assets/images/IEEE-CS_LogoTM-orange.png
 ---
 
 <!-- Hero Section -->
@@ -20,7 +24,7 @@ title: Keynotes - Dr. Chunsheng Yang
     style="min-height: 60vh; background-color: rgba(0, 0, 0, 0.6)"
   >
     <div
-      class="page-section container px-5 pt-5 d-flex flex-column align-items-center gap-3"
+      class="page-section container px-3 pt-5 d-flex flex-column align-items-center gap-3"
     >
       <h1 class="display-5 fw-bolder mt-5">
         LLM (LSM) Is Not Equal to the Third AI Wave
@@ -31,7 +35,7 @@ title: Keynotes - Dr. Chunsheng Yang
 </section>
 
 <section
-  class="page-section container-fluid px-5 pt-5 pb-5 mt-2 d-flex flex-column gap-4"
+  class="page-section container-fluid px-3 pt-5 pb-5 mt-2 d-flex flex-column gap-4"
 >
   <div class="d-flex flex-column gap-4">
     <div class="row">
@@ -129,28 +133,4 @@ title: Keynotes - Dr. Chunsheng Yang
   {% include colocated-conferences.html %}
 </section>
 
-<section
-  class="page-section container-fluid px-5 py-5 d-flex flex-column gap-4"
->
-  <h2 class="fs-2 text-center">Sponsors</h2>
-  <div class="row justify-content-around gap-3 pb-5">
-    <div
-      class="col-12 col-md-auto d-flex justify-content-center"
-      style="height: 50px"
-    >
-      <img src="/assets/images/ieee mb black png.png" class="mh-100" />
-    </div>
-    <div
-      class="col-12 col-md-auto d-flex justify-content-center"
-      style="height: 50px"
-    >
-      <img src="/assets/images/cis-logo.png" class="mh-100" />
-    </div>
-    <div
-      class="col-12 col-md-auto d-flex justify-content-center"
-      style="height: 50px"
-    >
-      <img src="/assets/images/IEEE-CS_LogoTM-orange.png" class="mh-100" />
-    </div>
-  </div>
-</section>
+{% include sponsors.html sponsors=page.sponsors %}

@@ -1,6 +1,10 @@
 ---
 layout: default
 title: SEGA Workshop 2025
+sponsors:
+  - image: /assets/images/ieee mb black png.png
+  - image: /assets/images/cis-logo.png
+  - image: /assets/images/IEEE-CS_LogoTM-orange.png
 ---
 
 <!-- Hero Section -->
@@ -17,22 +21,19 @@ title: SEGA Workshop 2025
 >
   <div class="hero-section">
     <div
-      class="page-section container px-5 pt-5 d-flex flex-column align-items-center gap-3"
+      class="page-section container px-3 pt-5 d-flex flex-column align-items-center gap-3"
     >
       <h1 class="display-5 fw-bolder mt-5">
         The 1st International Workshop on Smart Education in the Age of
         Generative AI (SEGA) 2025
       </h1>
       <h3>August 21, 2025</h3>
-      <!--       <a href="./CFP_SEGA_2025.pdf" target="_blank" class="btn btn-primary w-50"
-        >Call For Papers</a
-      > -->
     </div>
   </div>
 </section>
 
 <section
-  class="page-section container-fluid px-5 py-5 mt-2 d-flex flex-column gap-4"
+  class="page-section container-fluid px-3 py-5 mt-2 d-flex flex-column gap-4"
 >
   <div class="row g-5">
     <div class="col-sm-4 d-flex flex-column gap-4">
@@ -501,28 +502,4 @@ title: SEGA Workshop 2025
   {% include colocated-conferences.html %}
 </section>
 
-<section
-  class="page-section container-fluid px-5 py-5 d-flex flex-column gap-4"
->
-  <h2 class="fs-2 text-center">Sponsors</h2>
-  <div class="row justify-content-around gap-3 pb-5">
-    <div
-      class="col-12 col-md-3 d-flex justify-content-center"
-      style="height: 50px"
-    >
-      <img src="/assets/images/ieee mb black png.png" class="mh-100" />
-    </div>
-    <div
-      class="col-12 col-md-3 d-flex justify-content-center"
-      style="height: 50px"
-    >
-      <img src="/assets/images/cis-logo.png" class="mh-100" />
-    </div>
-    <div
-      class="col-12 col-md-3 d-flex justify-content-center"
-      style="height: 50px"
-    >
-      <img src="/assets/images/IEEE-CS_LogoTM-orange.png" class="mh-100" />
-    </div>
-  </div>
-</section>
+{% include sponsors.html sponsors=page.sponsors %}
