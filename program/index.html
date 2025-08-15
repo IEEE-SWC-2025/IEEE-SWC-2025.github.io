@@ -22,428 +22,110 @@ title: Program
       <h1 class="display-5 fw-bolder mt-5">
         IEEE Smart World Congress 2025 <br />Program
       </h1>
-      <a
-        href="/assets/files/IEEE-SWC-2025-Program-Aug7-v1.pdf"
-        class="btn btn-primary"
-        download
+      <div
+        class="d-flex flex-column flex-md-row gap-3 justify-content-center align-items-center w-100"
       >
-        <i class="bi bi-download"></i> Download Program Schedule (PDF)
-      </a>
+        <a
+          href="/assets/files/IEEE-SWC-2025-Program-Aug7-v1.pdf"
+          class="btn btn-primary"
+          download
+        >
+          <i class="bi bi-download"></i> Download Program Schedule (PDF)
+        </a>
+        <a
+          style="
+            background: #2dacee;
+            color: #ffffff;
+            border-radius: 5px;
+            font-size: 16px;
+            text-decoration: none;
+          "
+          href="https://whova.com/portal/e2ofmZ1VEhHRCKBJo9GMWT-Bp-S-G35Si0RidTNO20c=/?source=btn_link"
+          target="_blank"
+          rel="noreferrer"
+          data-reactroot=""
+          class="btn"
+          >Get Whova Now</a
+        >
+      </div>
     </div>
   </div>
 </section>
 
-<section
-  class="page-section container-fluid px-5 pt-5 pb-5 mt-2 d-flex flex-column gap-4"
->
-  <div class="d-flex flex-column gap-4">
+<section class="container-fluid d-flex flex-column gap-4">
+  <div class="page-section w-100 px-5 pb-5 py-5 d-flex flex-column gap-4">
+    {% include whova-lg-row.html %}
+  </div>
+</section>
+
+<section class="container-fluid d-flex flex-column gap-4 bg-light p-0">
+  <div class="page-section w-100 px-5 py-5 d-flex flex-column gap-4">
     <div class="row">
       <div class="col-12 mb-3 mb-sm-0 d-flex flex-column gap-4">
-        <h3 class="mb-2 text-center">Schedule for IEEE SWC 2025</h3>
-        <p>All times local to Calgary, Alberta, Canada (MDT)</p>
-        <hr />
-        <!-- Monday Aug 18 -->
-        <div class="row">
-          <h4 class="mb-4 text-center">Monday August 18</h4>
-          <div class="col-12">
-            <div class="card bg-light-subtle">
-              <div class="card-body">
-                <h4 class="m-0 text-center">Tutorials</h4>
-                <hr />
-                <!-- 13:00 - 15:00 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">1:00pm - 3:00pm<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Tutorial Session 1</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-                <!-- 15:00 - 15:30 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">3:00pm - 3:30pm<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Coffee Break</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-                <!-- 15:30 - 17:30 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">3:30pm - 5:30pm<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Tutorial Session 2</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-                <!-- 18:00 - 20:00 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">6:00pm - 8:00pm<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Reception</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="mb-4">
+          <h3 class="text-center mb-0">Schedule for IEEE SWC 2025</h3>
+          <p class="text-center">
+            All times local to Calgary, Alberta, Canada (MDT)
+          </p>
         </div>
-        <hr />
-        <!-- Tuesday Aug 19 -->
-        <div class="row">
-          <h4 class="mb-4 text-center">Tuesday August 19</h4>
-          <div class="col-12">
-            <div class="card bg-light-subtle">
-              <div class="card-body">
-                <h4 class="m-0 text-center">Industry Day</h4>
-                <hr />
-                <!-- 8:00 - 5:30 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">8:00am - 5:30pm<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold">Industry Day</p>
-                    <p class="fs-6">
-                      Join us for Industry Day, a full-day event highlighting
-                      real-world applications and strategic innovations in smart
-                      technologies across sectors. The program brings together
-                      executives, industry leaders, and emerging voices to
-                      explore how AI, IoT, digital twins, quantum computing, and
-                      AR/VR are shaping the future of smart communities. The
-                      reception will be held at dusk. All are welcome.
-                    </p>
-                    <a href="industry-day/" class="btn btn-primary btn-sm mt-2"
-                      >Learn More</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+      </div>
+      <div class="card bg-white p-3">
+        <div title="Whova event and conference app" id="whova-agendawidget">
+          <p id="whova-loading">Loading...</p>
         </div>
-        <hr />
-        <!-- Wednesday Aug 20 -->
-        <div class="row">
-          <h4 class="mb-4 text-center">Wednesday August 20</h4>
-          <div class="col-12">
-            <div class="card bg-light-subtle">
-              <div class="card-body">
-                <h4 class="m-0 text-center">
-                  Opening Ceremony, Keynote, Panel, and
-                  Conference/Workshop/Special Session Paper Presentations
-                </h4>
-                <hr />
-                <!-- 8:30 - 9:00 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">8:30am - 9:00am<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Opening</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-                <!-- 9:00 - 10:00  -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">9:00am - 10:00am<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Keynote 3</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-                <!-- 10:00 - 10:30 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">10:00am - 10:30am<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Coffee Break</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-                <!-- 10:30 - 12:00 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">10:30am - 12:00pm<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Technical Session 1</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-                <!-- 12:00 - 13:00 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">12:00pm - 1:00pm<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Lunch</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-                <!-- 13:00 - 14:30 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">1:00pm - 2:30pm<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">
-                      Women in the Smart World Session 1
-                    </p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-                <!-- 14:30 - 15:30 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">2:30pm - 3:30pm<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Technical Session 2</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-                <!-- 15:30 - 16:00 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">3:30pm - 4:00pm<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Coffee Break</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-                <!-- 16:00 - 17:30 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">4:00pm - 5:30pm<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Technical Session 3</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <script
+          src="https://whova.com/static/frontend/xems/js/embed/embedagenda.js?eid=w9ILgbX0vWSosYfbQb9JegbmGR3yIje%406scLgt407CU%3D&host=https://whova.com"
+          type="text/javascript"
+          id="embeded-agenda-script"
+        ></script>
+        <div id="whova-wrap" class="whova-wrap-class">
+          Powered By
+          <a class="brandlink" target="_blank" href="https://whova.com">
+            <b>Whova</b>
+          </a>
+          <br />
+          <a
+            class="whova-emslink brandanchorlink"
+            target="_blank"
+            href="https://whova.com/blog/free-event-planning-software-make-you-rockstar/"
+          >
+            Conference planning tools
+          </a>
         </div>
-        <hr />
-        <!-- Thursday Aug 21 -->
-        <div class="row">
-          <h4 class="mb-4 text-center">Thursday August 21</h4>
-          <div class="col-12">
-            <div class="card bg-light-subtle">
-              <div class="card-body">
-                <h4 class="m-0 text-center">
-                  Keynote, Panel, and Conference/Workshop/Special Session Paper
-                  Presentations <br />Banquet and Award Announcement (evening,
-                  at Calgary Zoo)
-                </h4>
-                <hr />
-                <!-- 8:30 - 09:30 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">8:30am - 09:30am<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Keynote 4</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-                <!-- 9:30 - 9:50  -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">9:30am - 9:50am<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Coffee Break</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-                <!-- 9:50 - 10:50 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">9:50am - 10:50am<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Panel Discussion 2</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-                <!-- 10:50 - 12:20 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">10:50am - 12:20pm<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Technical Session 4</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-                <!-- 12:20 - 13:15 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">12:20pm - 1:15pm<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Lunch</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-                <!-- 13:15 - 14:15 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">1:15pm - 2:15pm<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Keynote 5</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-                <!-- 14:15 - 15:45 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">2:15pm - 3:45pm<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">
-                      Women in the Smart World Session 2
-                    </p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-                <!-- 15:45 - 16:00 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">3:45pm - 4:00pm<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Coffee Break</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-                <!-- 16:00 - 17:30 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">4:00pm - 5:30pm<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Technical Session 5</p>
-                    <p class="fs-6 fw-bold mb-0">Poster Session</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-                <!-- 18:00 - 21:00 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">6:00pm - 9:00pm<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Banquet</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr />
-        <!-- Friday Aug 22 -->
-        <div class="row">
-          <h4 class="mb-4 text-center">Friday August 22</h4>
-          <div class="col-12">
-            <div class="card bg-light-subtle">
-              <div class="card-body">
-                <h4 class="m-0 text-center">
-                  Keynote, Panel, and Conference/Workshop/Special Session Paper
-                  Presentations <br />Closing Ceremony
-                </h4>
-                <hr />
-                <!-- 8:30 - 9:00 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">8:30am - 9:30am<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Keynote 6</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-                <!-- 9:30 - 9:50  -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">9:30am - 9:50am<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Coffee Break</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-                <!-- 9:50 - 10:50 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">9:50am - 10:50am<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Panel Discussion 3</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-                <!-- 10:50 - 12:30 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-end fw-bold">10:50am - 12:30pm<br /></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Technical Session 6</p>
-                    <p class="fs-6"></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr />
-        <!-- Saturday Aug 23 -->
-        <div class="row">
-          <h4 class="mb-4 text-center">Saturday August 23</h4>
-          <div class="col-12">
-            <div class="card bg-light-subtle">
-              <div class="card-body">
-                <h4 class="m-0 text-center">Banff Group Trip</h4>
-                <hr />
-                <!-- 8:30 - 9:00 -->
-                <div class="row fs-4 fs-6">
-                  <div class="col-sm-3">
-                    <p class="fs-6 text-center fw-bold"></p>
-                  </div>
-                  <div class="col-sm-9">
-                    <p class="fs-6 fw-bold mb-0">Group Trip to Banff</p>
-                    <p class="fs-6">
-                      Join us and escape the hustle of the city with an optional
-                      day trip to Banff National Park and experience the
-                      stunning natural beauty of one of Canada's most iconic
-                      national parks.
-                    </p>
-                    <a
-                      href="/travel/banff-group-trip"
-                      class="btn btn-primary btn-sm mt-2"
-                      >Learn More</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container-fluid d-flex flex-column gap-4">
+  <div class="page-section w-100 px-5 pb-5 py-5 d-flex flex-column gap-4">
+    <div class="row g-4">
+      <div
+        class="col-sm-6 py-2 d-flex justify-content-center"
+        style="max-height: 500px; overflow: hidden"
+      >
+        <img
+          src="/assets/images/sri-gowda-pdIe9hAcaP4-unsplash.jpg"
+          class="w-100 img-fluid"
+        />
+      </div>
+      <div
+        class="col-sm-6 d-flex flex-column gap-2 flex-sm-column justify-content-center"
+      >
+        <h4 class="">
+          Saturday August 23: Explore Stunning Calgary and Its Scenic
+          Surroundings with a Trip to Banff
+        </h4>
+        <p class="fs-5">
+          Join fellow IEEE SWC 2025 participants for a group day trip to Banff
+          on Saturday, August 23. Take in breathtaking mountain views, explore
+          charming sights, and enjoy a day of networking and camaraderie.
+        </p>
+
+        <div class="d-flex flex-sm-row gap-2 flex-column">
+          <a href="/travel/banff-group-trip/" class="btn btn-primary"
+            >Join a Group Trip to Banff</a
+          >
         </div>
       </div>
     </div>
